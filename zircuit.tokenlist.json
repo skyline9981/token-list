@@ -19,8 +19,16 @@
     },
     {
       "name": "MPC test token",
-      "address": "0x972A2fcf5bf85D5DE8BA750626B9D30A96C705dA",
+      "address": "0x36F934f437554920Ea0ebca12ccdF1eFdB33161c",
       "symbol": "MPC",
+      "decimals": 18,
+      "chainId": 48899,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "name": "Test Token",
+      "address": "0x8876Ff8c4B0BEB29b1Fbd430D6bafD41Ee09A152",
+      "symbol": "TT",
       "decimals": 18,
       "chainId": 48899,
       "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
