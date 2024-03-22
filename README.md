@@ -57,7 +57,17 @@ main()
 
 ```
 
-You can deploy the token by running the following command:
+## Deploy Token
+
+Use the following command to create a .env file.
+
+```bash
+cp .env.example .env
+```
+
+**Modify the .env file to include zircuit your private key.**
+
+Deploy the token by running the following command:
 
 ```bash
 npx hardhat run scripts/deployToken.ts --network zircuit
