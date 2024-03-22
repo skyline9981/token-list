@@ -1,0 +1,29 @@
+{
+  "name": "Zircuit Token List",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 1
+  },
+  "logoURI": "",
+  "keywords": ["Zircuit", "tokens"],
+  "timestamp": "2024-03-21T20:37:00.000+00:00",
+  "tokens": [
+    {
+      "name": "USDC",
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "USDC",
+      "decimals": 18,
+      "chainId": 48899,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "name": "MPC test token",
+      "address": "0x972A2fcf5bf85D5DE8BA750626B9D30A96C705dA",
+      "symbol": "MPC",
+      "decimals": 18,
+      "chainId": 48899,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    }
+  ]
+}
