@@ -32,7 +32,7 @@ contract <TokenContractName> is ERC20 {
 Compile the contract by running the following command:
 
 ```bash
-npm hardhat compile
+npx hardhat compile
 ```
 
 Modify the deployToken.ts file in the scripts folder to deploy your token.
@@ -60,5 +60,9 @@ main()
 You can deploy the token by running the following command:
 
 ```bash
-npm hardhat run scripts/deployToken.ts --network zircuit
+npx hardhat run scripts/deployToken.ts --network zircuit
 ```
+
+## Create Token List
+
+You can create a token list by modifying the zircuit.tokenlist.json file in the folder.
