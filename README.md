@@ -76,3 +76,11 @@ npx hardhat run scripts/deployToken.ts --network zircuit
 ## Create Token List
 
 You can create a token list by modifying the zircuit.tokenlist.json file in the folder.
+
+## How to use token-list.json
+
+Click on the "Raw" button to get the raw JSON file.
+
+Copy the URL of the raw JSON file.
+
+Use the URL to add the token list to Uniswap V3.
