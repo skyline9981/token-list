@@ -4,6 +4,10 @@
 
 You can create an ERC20 token by modifying the Token.sol file in the contracts folder.
 
+**Notice that the contract is just for demonstration purposes and should not be used in production.**
+
+You may want to use the OpenZeppelin ERC20 contract for production. But for now, we will use a simple ERC20 contract.
+
 You can modify the following variables in the Token.sol file to create your own token:
 
 ```solidity
@@ -26,6 +30,8 @@ contract <TokenContractName> is ERC20 {
     }
 }
 ```
+
+If you want to use the OpenZeppelin ERC20 contract, you should use the old version of the contract because the Zircuit testnet does not support the latest version of the contract now. Make sure your solidity version is 0.8.19 or lower.
 
 ## Deploy Token
 
@@ -65,7 +71,7 @@ Use the following command to create a .env file.
 cp .env.example .env
 ```
 
-**Modify the .env file to include zircuit your private key.**
+**Modify the .env file to include your zircuit wallet private key.**
 
 Deploy the token by running the following command:
 
